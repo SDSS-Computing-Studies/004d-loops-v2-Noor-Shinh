@@ -1,6 +1,6 @@
 import time
 names=("Lebron","Kobe","Michael","Shaq","Dennis")
-user=input("Enter a name")  
+user=(input("Enter a name")).strip()  
 count=1
 for i in names:
    if i== user:
